@@ -1,0 +1,223 @@
+title: Back to Black
+originalAuthor: danimalforlife
+description: Custom mod for the 2025 Back to Black event.
+dependencies: 
+assets:
+
+
+###Room Transitions###
+- name: remastered/field2d/us/al0field.2dd/US_al0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/bb0field.2dd/US_bb0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/ca0field.2dd/US_ca0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/dc0field.2dd/US_dc0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/di0field.2dd/US_di0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/eh0field.2dd/US_eh0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/es0field.2dd/US_es0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/hb0field.2dd/US_hb0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/he0field.2dd/US_he0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/lk0field.2dd/US_lk0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/lm0field.2dd/US_lm0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/mu0field.2dd/US_mu0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/nm0field.2dd/US_nm0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/po0field.2dd/US_po0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/tr0field.2dd/US_tr0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/tt0field.2dd/US_tt0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/wi0field.2dd/US_wi0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/wm0field.2dd/US_wm0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+- name: remastered/field2d/us/zz0field.2dd/US_zz0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: Transitions/btb.png
+
+
+
+###Sora Recolor###
+#Sora Clothing#
+- name: remastered\obj\P_EX100.mdlx\-1.dds
+  multi: 
+  - name: remastered\obj\ACTOR_SORA.mdlx\-1.dds
+  - name: remastered\obj\AL14_PLAYER.mdlx\-1.dds
+  - name: remastered\obj\DEAD_BOSS.mdlx\-1.dds
+  - name: remastered\obj\LAST_ATTACKER.mdlx\-1.dds
+  - name: remastered\obj\LAST_GIMMICK.mdlx\-1.dds
+  - name: remastered\obj\LAST_HITMARK.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_LAST.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_MEMO.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_NPC.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_WM.mdlx\-1.dds
+  - name: remastered\obj\PLAYER.mdlx\-1.dds
+  - name: remastered\obj\PO06_PLAYER.mdlx\-1.dds
+  - name: remastered\obj\PO07_PLAYER.mdlx\-1.dds
+  - name: remastered\obj\PO08_PLAYER.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_NM.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_TR.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_WI.mdlx\-1.dds
+  - name: remastered\obj\WM_EX100.mdlx\-1.dds
+  - name: remastered\obj\TR_PLAYER.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: SoraTextures/-1.dds
+
+
+#Sora Face and red bags#
+#Textures Sora Main Tex0
+- name: remastered\obj\P_EX100.mdlx\-0.dds
+  multi: 
+  - name: remastered\obj\ACTOR_SORA.mdlx\-0.dds
+  - name: remastered\obj\AL14_PLAYER.mdlx\-0.dds
+  - name: remastered\obj\DEAD_BOSS.mdlx\-0.dds
+  - name: remastered\obj\LAST_ATTACKER.mdlx\-0.dds
+  - name: remastered\obj\LAST_GIMMICK.mdlx\-0.dds
+  - name: remastered\obj\LAST_HITMARK.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_LAST.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_MEMO.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_NPC.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_WM.mdlx\-0.dds
+  - name: remastered\obj\PLAYER.mdlx\-0.dds
+  - name: remastered\obj\PO06_PLAYER.mdlx\-0.dds
+  - name: remastered\obj\PO07_PLAYER.mdlx\-0.dds
+  - name: remastered\obj\PO08_PLAYER.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_XM.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_NM.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_TR.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_WI.mdlx\-0.dds
+  - name: remastered\obj\WM_EX100.mdlx\-0.dds
+  - name: remastered\obj\TR_PLAYER.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: SoraTextures/-0.dds
+
+
+
+
+
+#Wall Drawings
+- name: remastered\map\tt18.map\-2.dds
+  method: copy
+  source:
+  - name: Drawings\-2.dds
+- name: remastered\map\tt18.map\-7.dds
+  method: copy
+  source:
+  - name: Drawings\-7.dds
+- name: remastered\map\tt18.map\-8.dds
+  method: copy
+  source:
+  - name: Drawings\-8.dds
+- name: remastered\map\tt18.map\-9.dds
+  method: copy
+  source:
+  - name: Drawings\-9.dds
+- name: remastered\map\tt18.map\-10.dds
+  method: copy
+  source:
+  - name: Drawings\-10.dds
+- name: remastered\map\tt18.map\-18.dds
+  method: copy
+  source:
+  - name: Drawings\-18.dds
+
+
+
+
+###Loading Icon
+- name: remastered/menu/us/pause.2ld/US_pause_2ld1.dds
+  multi:
+  - name: remastered/menu/fm/pause.2ld/-1.dds
+  - name: remastered/menu/fm/pause.2ld/FR_pause_2ld1.dds
+  - name: remastered/menu/fm/pause.2ld/GR_pause_2ld1.dds
+  - name: remastered/menu/fm/pause.2ld/IT_pause_2ld1.dds
+  - name: remastered/menu/fm/pause.2ld/SP_pause_2ld1.dds
+  - name: remastered/menu/fm/pause.2ld/UK_pause_2ld1.dds
+  - name: remastered/menu/fm/pause.2ld/US_pause_2ld1.dds
+  - name: remastered/menu/fr/pause.2ld/FR_pause_2ld1.dds
+  - name: remastered/menu/gr/pause.2ld/GR_pause_2ld1.dds
+  - name: remastered/menu/it/pause.2ld/IT_pause_2ld1.dds
+  - name: remastered/menu/sp/pause.2ld/SP_pause_2ld1.dds
+  - name: remastered/menu/uk/pause.2ld/UK_pause_2ld1.dds
+  - name: remastered/menu/fr/pause.2ld/UK_pause_2ld1.dds
+  method: copy
+  source:
+  - name: Loading/US_pause_2ld1.dds
